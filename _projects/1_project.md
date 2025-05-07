@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Capstone Project at CMU
-description: with background image
-img: assets/img/12.jpg
+description: Data science and ML for healthcare analytics
+img: assets/img/cmustats.png
 importance: 1
 category: work
 related_publications: true

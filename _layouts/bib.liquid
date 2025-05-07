@@ -184,6 +184,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.subtitle %}
+  <div class="text-muted" style="margin-top: 0.25rem;">
+    {{ entry.subtitle }}
+  </div>
+  {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -193,7 +198,7 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">Overview</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>

@@ -44,7 +44,20 @@ horizontal: false
 </li>
 
 <li>
-    <div class="direction-l" data-toggle="modal" data-target="#cmu">
+    <div class="direction-l" data-toggle="modal" data-target="#gtan">
+        <div class="flag-wrapper">
+            <span class="flag">GT Angel Network</span>
+            <span class="time-wrapper"><span class="time">Aug. 2024-present</span></span>
+        </div>
+        <div class="desc">
+            <b>Associate</b> <br>
+            Developing GT's startup ecosystem<br>
+        </div>
+    </div>
+</li>
+
+<li>
+    <div class="direction-r" data-toggle="modal" data-target="#cmu">
         <div class="flag-wrapper">
             <span class="flag">Carnegie Mellon</span>
             <span class="time-wrapper"><span class="time">Summer 2024</span></span>
@@ -57,14 +70,14 @@ horizontal: false
 </li>
 
 <li>
-    <div class="direction-r" data-toggle="modal" data-target="#act_lab">
+    <div class="direction-l" data-toggle="modal" data-target="#act_lab">
         <div class="flag-wrapper">
             <span class="flag">GT ACT Lab</span>
-            <span class="time-wrapper"><span class="time">Summer 2024</span></span>
+            <span class="time-wrapper"><span class="time">Jan 2024 - May 2024</span></span>
         </div>
         <div class="desc">
             <b>Undergraduate Research Assistant: Autonomous & Connected Transportation Lab</b> <br>
-            Optimization models for transportation equity & safety <br>
+            Optimization models for transportation<br>
         </div>
     </div>
 </li>
@@ -117,8 +130,34 @@ horizontal: false
         </div>
     </div>
 
+    <!-- GTAN Modal -->
+    <div class="modal fade" id="gtan" tabindex="-1" role="dialog" aria-labelledby="gtanLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gtanLabel">GT Angel Network</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><i class='fas fa-id-badge'></i> &nbsp;Associate</p>
+                    <p>
+                        <ul>
+                        <li>Lead startup due diligence efforts and collaborate with GTAN leadership to screen pitch applications from early-stage companies.</li>
+                        <li>Draft detailed investment memos synthesizing product strategy, market opportunity, financials, and exit potential for angel investors.</li>
+                        <li>Participate in founder meetings and present recommendations to network members.</li>
+                        </ul>
+                    </p>
+                    <p><i class='fas fa-calendar'></i> &nbsp;Aug. 2024–present</p>
+                    <p><i class='fas fa-map-marker-alt'></i> <em>&nbsp;Atlanta, GA</em> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- CMU Stats Modal -->
-    <div class="modal fade" id="cmu_stats" tabindex="-1" role="dialog" aria-labelledby="cmuStatsLabel" aria-hidden="true">
+    <div class="modal fade" id="cmu" tabindex="-1" role="dialog" aria-labelledby="cmuStatsLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -156,7 +195,7 @@ horizontal: false
                     <p><i class='fas fa-id-badge'></i> &nbsp;Undergraduate Research Assistant</p>
                     <p>
                         <ul>
-                        <li>Developed a multi-objective optimization model in Python with Pyomo and Gurobi to improve transportation accessibility, safety, and equity across diverse zones</li>
+                        <li>Developed a multi-objective optimization model in Python with Pyomo and Gurobi to improve transportation accessibility, safety, and equity across diverse zones.</li>
                         </ul>
                     </p>
                     <p><i class='fas fa-calendar'></i> &nbsp;Summer 2024</p>
