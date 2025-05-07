@@ -8,6 +8,7 @@ nav_order: 2
 _styles: ../assets/css/timeline.css
 horizontal: false
 ---
+
 <link rel="stylesheet" href="../assets/css/timeline.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -28,8 +29,6 @@ horizontal: false
         </div>
     </div>
 </li>
-
-
 
 <li>
     <div class="direction-r" data-toggle="modal" data-target="#ssog">
@@ -56,7 +55,6 @@ horizontal: false
         </div>
     </div>
 </li>
-
 
 <li>
     <div class="direction-r" data-toggle="modal" data-target="#act_lab">
@@ -167,6 +165,7 @@ horizontal: false
             </div>
         </div>
     </div>
+
 </div>
 
 <br>
