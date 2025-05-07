@@ -18,10 +18,10 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-resume",
           title: "resume",
@@ -59,7 +59,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-capstone-project-at-cmu",
           title: 'Capstone Project at CMU',
-          description: "with background image",
+          description: "Data science and ML for healthcare analytics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
