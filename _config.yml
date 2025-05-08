@@ -196,7 +196,7 @@ exclude:
   - _pages/repositories.md
   - _pages/profiles.md
   - _pages/books.md
-  - _pages/projects.md
+  - _pages/projects1.md
   - _pages/dropdown.md
   - assets/jupyter/blog.ipynb
 keep_files:

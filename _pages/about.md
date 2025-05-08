@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: graphnode.gif
+  image: minimal.png
   address: >
 
 news: false # includes a list of news items
