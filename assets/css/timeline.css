@@ -1,7 +1,7 @@
 /* Timeline CSS with dark mode support */
 
 .post-title {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 250;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -44,7 +44,6 @@
       display: unset;
     }
   }
-  
 }
 
 body {
@@ -55,7 +54,6 @@ body {
   color: var(--global-text-color) !important;
 }
 
-
 .modal-body i {
   color: var(--global-theme-color);
 }
@@ -65,7 +63,6 @@ body .modal-content {
   background-color: var(--global-card-bg-color) !important;
   color: var(--global-text-color) !important;
 }
-
 
 .timeline {
   position: relative;
@@ -80,19 +77,13 @@ body .modal-content {
   position: absolute;
   left: 50%;
   top: 0;
-  content: ' ';
+  content: " ";
   display: block;
   width: 6px;
   height: 100%;
   margin-left: -3px;
   /* Use divider color for the timeline line */
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    var(--global-divider-color) 8%,
-    var(--global-divider-color) 92%,
-    transparent 100%
-  );
+  background: linear-gradient(to bottom, transparent 0%, var(--global-divider-color) 8%, var(--global-divider-color) 92%, transparent 100%);
   z-index: 5;
 }
 
@@ -140,7 +131,7 @@ body .modal-content {
   text-align: left;
   box-shadow:
     0 0 1px rgba(0, 0, 0, 0.15),
-    0 1px 1px rgba(0, 0, 0, 0.10);
+    0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .direction-l .flag {
@@ -234,7 +225,7 @@ body .modal-content {
   color: var(--global-text-color);
   background: var(--global-card-bg-color);
   border-radius: 6px;
-  box-shadow: 0 0 1px rgba(0,0,0,0.05);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
   padding: 1em;
 }
 
