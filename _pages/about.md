@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: 
+  image:
   address: >
 
 news: false
@@ -61,6 +61,7 @@ I am also involved in undergraduate research with the <a href="https://ssog.ae.g
 <br><br>
 
 In addition to my academic and research work, I serve as an associate for the <a href="https://gtangelnetwork.com">GT Angel Network</a>, helping lead Georgia Tech’s first angel investment network.
+
 </div>
 
 <!-- Particles container for right-side neural net effect -->
