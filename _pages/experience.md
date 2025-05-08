@@ -76,7 +76,7 @@ horizontal: false
             <span class="time-wrapper"><span class="time">Jan 2024 - May 2024</span></span>
         </div>
         <div class="desc">
-            <b>Undergraduate Research Assistant: Autonomous & Connected Transportation Lab</b> <br>
+            <b>Undergraduate Research Assistant: Autonomous & Connected Transportation</b> <br>
             Optimization models for transportation<br>
         </div>
     </div>
@@ -215,4 +215,37 @@ horizontal: false
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Script to ensure dark mode compatibility with Bootstrap modals -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to update modal styles based on current theme
+    function updateModalStyles() {
+        const isDarkMode = document.documentElement.getAttribute('data-theme') === 'dark';
+        const modals = document.querySelectorAll('.modal-content');
+        
+        modals.forEach(modal => {
+            // Let CSS variables handle the styling
+            // This is just to trigger a refresh if needed
+            modal.style.backgroundColor = '';
+            modal.style.color = '';
+        });
+    }
+    
+    // Run once on page load
+    updateModalStyles();
+    
+    // Set up a MutationObserver to watch for theme changes
+    const observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+            if (mutation.attributeName === 'data-theme') {
+                updateModalStyles();
+            }
+        });
+    });
+    
+    // Start observing the document element for attribute changes
+    observer.observe(document.documentElement, { attributes: true });
+});
+</script>
 </body>
