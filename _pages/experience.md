@@ -24,8 +24,8 @@ horizontal: false
             <span class="time-wrapper"><span class="time">Summer 2025</span></span>
         </div>
         <div class="desc">
-            <b>Technology Development Intern</b> <br>
-            Data & Analytics <br>
+            <b>Data Engineering Intern</b> <br>
+            Insights & Analytics Team <br>
         </div>
     </div>
 </li>
@@ -97,7 +97,13 @@ horizontal: false
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p><i class='fas fa-id-badge'></i> &nbsp;Technology Development Intern</p>
+                    <p><i class='fas fa-id-badge'></i> &nbsp;Data Engineering Intern</p>
+                    <p>
+                        <ul>
+                        <li>Built a Spark-based Python library on Azure Databricks to calculate AHRQ Quality and Patient Safety measures from FHIR-formatted clinical data, replacing legacy SAS workflows and saving $36K annually</li>
+                        <li>Reduced runtime by 90% (10 hours to 1 hour) through optimized Pandas UDFs and Databricks</li>
+                        </ul>
+                    </p>
                     <p><i class='fas fa-calendar'></i> &nbsp;Summer 2025</p>
                     <p><i class='fas fa-map-marker-alt'></i> <em>&nbsp;Minneapolis, MN</em> </p>
                 </div>
