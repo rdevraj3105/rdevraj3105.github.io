@@ -15,7 +15,6 @@ social: true
 selected_papers: true
 ---
 
-
 <!-- Style for seamless dark mode transitions -->
 <style>
   /*
@@ -55,7 +54,6 @@ selected_papers: true
   */
 </style>
 
-
 <div class="content-container">
 
 I’m a 3rd-year undergraduate at <a href="http://gatech.edu">Georgia Tech</a>, pursuing a B.S. in <a href="https://www.isye.gatech.edu/">Industrial & Systems Engineering</a> with a specialization in <a href="https://www.isye.gatech.edu/academics/undergraduate/degrees/operations-research">Operations Research</a> and a minor in <a href="https://www.cc.gatech.edu/">Computer Science</a> focused on AI and machine learning. I’m passionate about applying optimization and statistical modeling to solve complex, data-driven problems.
@@ -69,6 +67,7 @@ I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datasci
 
 Beyond academics, I’m a Senior Associate at the <a href="https://gtangelnetwork.com">GT Angel Network</a>, supporting <br> Georgia Tech’s first angel investment community, and I perform with the GT Aarohi <br> Indian Classical Arts association. I'm always happy to connect — feel free to reach out!
 <br><br>
+
 </div>
 
 <!-- Particles container for right-side neural net effect -->
