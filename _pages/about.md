@@ -6,7 +6,8 @@ subtitle:
 
 profile:
   align: right
-  image:
+  image: rohan.jpeg
+  image_circular: true
   address: >
 
 news: false
@@ -14,8 +15,10 @@ social: true
 selected_papers: true
 ---
 
+
 <!-- Style for seamless dark mode transitions -->
 <style>
+  /*
   body {
     background: var(--global-bg-color);
     color: var(--global-text-color);
@@ -28,7 +31,7 @@ selected_papers: true
     margin-right: 2vw;
     position: relative;
     z-index: 1;
-    background: transparent; /* transparent for seamless transition */
+    background: transparent; 
     color: var(--global-text-color);
     padding: 2rem 2rem 2rem 0;
     box-sizing: border-box;
@@ -49,25 +52,29 @@ selected_papers: true
     background: transparent !important;
     transition: background 0.4s cubic-bezier(.4,0,.2,1);
   }
+  */
 </style>
 
+
 <div class="content-container">
-I am a rising 3rd-year undergraduate at the <a href="http://gatech.edu">Georgia Institute of Technology</a> pursuing a B.S. in <a href="https://www.isye.gatech.edu/">Industrial &amp; Systems Engineering</a>, specializing in <a href="https://www.isye.gatech.edu/academics/undergraduate/degrees/operations-research">Operations Research</a> with a minor in <a href="https://www.cc.gatech.edu/">Computer Science</a> (concentration in artificial intelligence/machine learning). I am passionate about optimization and data science.
+
+I’m a 3rd-year undergraduate at <a href="http://gatech.edu">Georgia Tech</a>, pursuing a B.S. in <a href="https://www.isye.gatech.edu/">Industrial & Systems Engineering</a> with a specialization in <a href="https://www.isye.gatech.edu/academics/undergraduate/degrees/operations-research">Operations Research</a> and a minor in <a href="https://www.cc.gatech.edu/">Computer Science</a> focused on AI and machine learning. I’m passionate about applying optimization and statistical modeling to solve complex, data-driven problems.
+
+<br><br>
+Currently, I conduct research with the <a href="https://ssog.ae.gatech.edu/">Space Systems Optimization Group</a> under <a href="https://ae.gatech.edu/directory/person/koki-ho">Prof. Koki Ho</a>, developing optimization models for autonomous vehicle routing and decision-making under uncertainty.
+
+I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datascience/index.html">CMU’s Dept. of Statistics and Data Science</a>, applying data science & ML to healthcare analytics, and at Optum, working on data engineering to improve healthcare quality measurement pipelines.
 
 <br><br>
 
-I am also involved in undergraduate research with the <a href="https://ssog.ae.gatech.edu/">Space Systems Optimization Group</a>, where I am advised by <a href="https://ae.gatech.edu/directory/person/koki-ho">Prof. Koki Ho</a>.
-
+Beyond academics, I’m a Senior Associate at the <a href="https://gtangelnetwork.com">GT Angel Network</a>, supporting <br> Georgia Tech’s first angel investment community, and I perform with the GT Aarohi <br> Indian Classical Arts association. I'm always happy to connect — feel free to reach out!
 <br><br>
-
-In addition to my academic and research work, I serve as an associate for the <a href="https://gtangelnetwork.com">GT Angel Network</a>, helping lead Georgia Tech’s first angel investment network.
-
 </div>
 
 <!-- Particles container for right-side neural net effect -->
 <div id="neural-net" style="position: fixed; top: 0; right: 0; width: 40vw; height: 60vh; z-index: -1; pointer-events: none; background: transparent;"></div>
 
-<!-- tsParticles via CDN and theme-aware support -->
+<!--
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.37.0/tsparticles.min.js"></script>
 <script>
   // Helper to read a CSS variable from :root
@@ -151,3 +158,4 @@ In addition to my academic and research work, I serve as an associate for the <a
     });
   });
 </script>
+-->

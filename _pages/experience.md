@@ -50,7 +50,7 @@ horizontal: false
             <span class="time-wrapper"><span class="time">Aug. 2024-present</span></span>
         </div>
         <div class="desc">
-            <b>Associate</b> <br>
+            <b>Senior Associate</b> <br>
             Developing GT's startup ecosystem<br>
         </div>
     </div>
@@ -147,7 +147,7 @@ horizontal: false
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p><i class='fas fa-id-badge'></i> &nbsp;Associate</p>
+                    <p><i class='fas fa-id-badge'></i> &nbsp;Senior Associate</p>
                     <p>
                         <ul>
                         <li>Lead startup due diligence efforts and collaborate with GTAN leadership to screen pitch applications from early-stage companies.</li>
