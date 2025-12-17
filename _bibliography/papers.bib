@@ -52,16 +52,23 @@
 
 @article{GT,
   abbr = {Georgia Tech},
-  title={Mars Rover Vehicle Routing Optimization},
+  title={A Multi-Scale Path Planning Optimization for Planetary Rovers in Uncertain Terrain},
+  author = {Rohan Devraj, Nicholas Gollins, Masafumi Isaji, Koki Ho},
   Month = {},
+  note = {Accepted to AIAA ASCEND 2026},
   subtitle = {Space Systems Optimization Group},
   year={2025},
   publisher={GT},
   preview={ssog.jpg},
-  abstract = {As part of the Space Systems Optimization Group at Georgia Tech,
-   I conduct research on optimizing Mars rover surface routing to support energy-efficient and autonomous exploration. 
-   The core of this work involves formulating a Mixed-Integer Linear Programming (MILP) model that incorporates elevation-based terrain costs to minimize energy. 
-   To ensure feasible and continuous paths, I implemented subtour elimination constraints that prevent disconnected or looping routes. I am extending this model to account for the stochastic nature of orbital satellite data, which introduces uncertainty in terrain information. This involves developing adaptive planning techniques that allow the rover to update its route based on newly observed conditions (local routing/global routing). The overall objective is to improve mission robustness and operational autonomy for long-duration planetary exploration.},
+  abstract = {As part of the Space Systems Optimization Group at Georgia Tech, I conduct research on optimizing Mars rover surface routing to support energy-efficient and autonomous planetary exploration. This work focuses on developing optimization-based planning methods that enable rovers to operate effectively over large, partially observed terrain maps derived from orbital satellite data.
+
+At the global planning level, I formulate a Mixed-Integer Linear Programming (MILP) model that determines optimal visitation sequences across thousands of candidate surface locations. The MILP incorporates elevation-based terrain costs to capture gravitational energy expenditure and enforces routing feasibility through subtour elimination constraints, ensuring continuous, non-looping paths over the surface. This global optimization framework allows the rover to reason over long-horizon mission objectives while respecting energy and routing constraints that are difficult to encode in traditional graph-search methods.
+
+To bridge the gap between high-level planning and local execution, the system adopts a multi-scale planning architecture. Pairwise travel costs between candidate locations are computed using graph-based search (e.g., A*), enabling the MILP to reason over realistic traversal costs without explicitly modeling every grid cell at the optimization level. This separation allows the framework to scale to large terrain maps while maintaining physically meaningful path costs.
+
+At the local planning and execution layer, I am extending the framework to account for uncertainty in satellite-derived elevation data by incorporating adaptive, rolling-horizon decision-making. As the rover traverses the terrain, locally observed elevation information is revealed and used to update movement cost estimates in real time. The rover then re-optimizes its plan over a limited horizon, allowing it to dynamically adjust routes in response to newly observed conditions while still remaining consistent with the global mission plan.
+
+Together, this three-layer architecture—combining graph-based local cost estimation, global MILP-based route optimization, and adaptive rolling-horizon replanning—provides a scalable and uncertainty-aware approach to planetary surface navigation. The overarching objective of this research is to improve mission robustness, energy efficiency, and operational autonomy for long-duration robotic exploration in uncertain and data-limited environments.},
   code = https://github.com/rdevraj3105/stochastic-vehicle-routing,
   selected = {true},
   appear = {true}

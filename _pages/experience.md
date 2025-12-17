@@ -125,8 +125,8 @@ horizontal: false
                     <p><i class='fas fa-id-badge'></i> &nbsp;Undergraduate Researcher</p>
                     <p>
                         <ul>
-                        <li>Optimized MILP Mars rover routing model in Python with Gurobi, integrating elevation costs, routing constraints, and subtour elimination.</li>
-                        <li>Led research on adaptive path planning and conducted a literature review on 15+ path planning methods, focusing on uncertainty and scalability.</li>
+                        <li>Developed a large-scale MILP-based Mars rover routing framework in Python (Pyomo/Gurobi), incorporating elevation-based energy costs, routing constraints, and subtour elimination to enable feasible, energy-efficient surface navigation.</li>
+                        <li>Designed adaptive, uncertainty-aware path planning strategies that dynamically replan rover routes based on newly observed terrain information while maintaining global mission objectives.</li>
                         </ul>
                     </p>
                     <p><i class='fas fa-calendar'></i> &nbsp;Aug. 2024-present</p>
