@@ -56,16 +56,20 @@ selected_papers: true
 
 <div class="content-container">
 
-I’m a 3rd-year undergraduate at <a href="http://gatech.edu">Georgia Tech</a>, pursuing a B.S. in <a href="https://www.isye.gatech.edu/">Industrial & Systems Engineering</a> with a specialization in <a href="https://www.isye.gatech.edu/academics/undergraduate/degrees/operations-research">Operations Research</a> and a minor in <a href="https://www.cc.gatech.edu/">Computer Science</a> focused on AI and machine learning. I’m passionate about applying optimization and statistical modeling to solve complex, data-driven problems.
-
-<br><br>
-Currently, I conduct research with the <a href="https://ssog.ae.gatech.edu/">Space Systems Optimization Group</a> under <a href="https://ae.gatech.edu/directory/person/koki-ho">Prof. Koki Ho</a>, developing optimization models for autonomous vehicle routing and decision-making under uncertainty.
-
-I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datascience/index.html">CMU’s Dept. of Statistics and Data Science</a>, applying data science & ML to healthcare analytics, and at Optum, working on data engineering to improve healthcare quality measurement pipelines.
+I’m a senior at <a href="http://gatech.edu">Georgia Tech</a>, pursuing a B.S. in <a href="https://www.isye.gatech.edu/">Industrial & Systems Engineering</a> with a specialization in <a href="https://www.isye.gatech.edu/academics/undergraduate/degrees/operations-research">Operations Research</a> and a minor in <a href="https://www.cc.gatech.edu/">Computer Science</a> focused on AI and machine learning.
 
 <br><br>
 
-Beyond academics, I’m a Senior Associate at the <a href="https://gtangelnetwork.com">GT Angel Network</a>, supporting <br> Georgia Tech’s first angel investment community, and I perform with the GT Aarohi <br> Indian Classical Arts association. I'm always happy to connect — feel free to reach out!
+Currently, I am an industrial engineering intern at Apple, where I work on optimization, simulation modeling, and data-driven decision systems for Apple's product operations. I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datascience/index.html">CMU’s Dept. of Statistics and Data Science</a>, applying data science & ML to healthcare analytics, and at Optum, working on data engineering to improve healthcare quality measurement pipelines.
+
+
+<br><br>
+
+I also conducted research in the <a href="https://ssog.ae.gatech.edu/">Space Systems Optimization Group</a> under <a href="https://ae.gatech.edu/directory/person/koki-ho">Prof. Koki Ho</a>, Dr. Masafumi Isaji, and Dr. Nick Gollins where I developed optimization models for autonomous rover routing and decision-making under uncertainty. I presented this work at AIAA ASCEND 2026 as the first author.
+
+<br><br>
+
+Beyond academics, I’m a Senior Associate at the <a href="https://gtangelnetwork.com">GT Angel Network</a>, supporting Georgia Tech’s first angel investment community, and I perform with the GT Aarohi Indian Classical Arts association. In my free time, I enjoy playing tennis, exploring coffee shops, and trying new desserts. I’m always happy to connect — feel free to reach out!
 <br><br>
 
 </div>

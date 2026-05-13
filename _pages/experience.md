@@ -18,6 +18,19 @@ horizontal: false
 <ul class="timeline">
 
 <li>
+    <div class="direction-r" data-toggle="modal" data-target="#apple">
+        <div class="flag-wrapper">
+            <span class="flag">Apple</span>
+            <span class="time-wrapper"><span class="time">Jun. 2026 - present</span></span>
+        </div>
+        <div class="desc">
+            <b>Industrial Engineering PM Intern</b> <br>
+            Industrial Engineering & Innovation Team <br>
+        </div>
+    </div>
+</li>
+
+<li>
     <div class="direction-l" data-toggle="modal" data-target="#optum">
         <div class="flag-wrapper">
             <span class="flag">Optum</span>
@@ -34,7 +47,7 @@ horizontal: false
     <div class="direction-r" data-toggle="modal" data-target="#ssog">
         <div class="flag-wrapper">
             <span class="flag">Georgia Tech SSOG</span>
-            <span class="time-wrapper"><span class="time">Aug. 2024-present</span></span>
+            <span class="time-wrapper"><span class="time">Aug. 2024-May 2026</span></span>
         </div>
         <div class="desc">
             <b>Undergraduate Researcher (Prof. Koki Ho)</b> <br>
@@ -73,7 +86,7 @@ horizontal: false
     <div class="direction-l" data-toggle="modal" data-target="#act_lab">
         <div class="flag-wrapper">
             <span class="flag">GT ACT Lab</span>
-            <span class="time-wrapper"><span class="time">Jan 2024 - May 2024</span></span>
+            <span class="time-wrapper"><span class="time">Jan. 2024 - May 2024</span></span>
         </div>
         <div class="desc">
             <b>Undergraduate Research Assistant: Autonomous & Connected Transportation</b> <br>
@@ -85,6 +98,31 @@ horizontal: false
 </ul>
 
 <!-- All modals -->
+<div>
+    <!-- Apple Modal -->
+    <div class="modal fade" id="apple" tabindex="-1" role="dialog" aria-labelledby="appleLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="appleLabel">Apple</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><i class='fas fa-id-badge'></i> &nbsp;Industrial Engineering PM Intern</p>
+                    <p>
+                        <ul>
+                        <li>Simulation modeling, optimization, and data science for Apple product operations.</li>
+                        </ul>
+                    </p>
+                    <p><i class='fas fa-calendar'></i> &nbsp;June 2026 - December 2026</p>
+                    <p><i class='fas fa-map-marker-alt'></i> <em>&nbsp;Cupertino, CA</em> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <div>
     <!-- Optum Modal -->
     <div class="modal fade" id="optum" tabindex="-1" role="dialog" aria-labelledby="optumLabel" aria-hidden="true">
@@ -129,7 +167,7 @@ horizontal: false
                         <li>Designed adaptive, uncertainty-aware path planning strategies that dynamically replan rover routes based on newly observed terrain information while maintaining global mission objectives.</li>
                         </ul>
                     </p>
-                    <p><i class='fas fa-calendar'></i> &nbsp;Aug. 2024-present</p>
+                    <p><i class='fas fa-calendar'></i> &nbsp;Aug. 2024 - May 2026</p>
                     <p><i class='fas fa-map-marker-alt'></i> <em>&nbsp;Atlanta, GA</em> </p>
                 </div>
             </div>
@@ -254,4 +292,4 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(document.documentElement, { attributes: true });
 });
 </script>
-</body>
+
