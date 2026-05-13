@@ -292,4 +292,3 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(document.documentElement, { attributes: true });
 });
 </script>
-

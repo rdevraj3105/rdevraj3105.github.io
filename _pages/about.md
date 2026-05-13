@@ -62,7 +62,6 @@ I’m a senior at <a href="http://gatech.edu">Georgia Tech</a>, pursuing a B.S. 
 
 Currently, I am an industrial engineering intern at Apple, where I work on optimization, simulation modeling, and data-driven decision systems for Apple's product operations. I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datascience/index.html">CMU’s Dept. of Statistics and Data Science</a>, applying data science & ML to healthcare analytics, and at Optum, working on data engineering to improve healthcare quality measurement pipelines.
 
-
 <br><br>
 
 I also conducted research in the <a href="https://ssog.ae.gatech.edu/">Space Systems Optimization Group</a> under <a href="https://ae.gatech.edu/directory/person/koki-ho">Prof. Koki Ho</a>, Dr. Masafumi Isaji, and Dr. Nick Gollins where I developed optimization models for autonomous rover routing and decision-making under uncertainty. I presented this work at AIAA ASCEND 2026 as the first author.
