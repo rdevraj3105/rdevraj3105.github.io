@@ -60,7 +60,7 @@ I’m a senior at <a href="http://gatech.edu">Georgia Tech</a>, pursuing a B.S. 
 
 <br><br>
 
-Currently, I am an Industrial Engineering Intern at Apple, where I work on simulation modeling, automation, computer vision capabilities, and data-driven decision systems for product operations. I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datascience/index.html">CMU’s Dept. of Statistics and Data Science</a>, applying data science & ML to healthcare analytics, and at Optum, working on data engineering to improve healthcare quality measurement pipelines.
+Currently, I am an Industrial Engineering Intern at Apple, where I work on simulation modeling, operations research, and optimization to help design and scale the systems behind the manufacturing of Apple products. I’ve also interned at <a href="https://www.cmu.edu/dietrich/statistics-datascience/index.html">CMU’s Dept. of Statistics and Data Science</a>, applying data science & ML to healthcare analytics, and at Optum, working on data engineering to improve healthcare quality measurement pipelines.
 
 <br><br>
 
